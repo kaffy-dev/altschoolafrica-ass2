@@ -54,6 +54,7 @@ section.wrapper {
 }
 
 section.main {
+  width: 100%;
   display: flex;
   padding-top: 80px;
   padding-bottom: 81px;
@@ -109,6 +110,7 @@ p.small {
 /* Container 2*/
 section.container2 {
   width: 580px;
+  /* width: 50%; */
   height: fit-content;
   border-radius: 6px;
   background: #FFF;
@@ -118,8 +120,9 @@ section.container2 {
 }
 
 form {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
 }
 
  label {
@@ -156,9 +159,12 @@ input,
   }
 
   button {
+    width: 100%;
+    padding: 16px;
     margin-bottom: 16px;
     color: white;
     background-color: #2ec4b6;
+    border: solid transparent;
   }
 
   .p-button {
@@ -215,6 +221,7 @@ input,
   .input-row {
     /* border: solid red; */
     width: 100%;
+    /* border: solid red; */
     display: flex;
     justify-content: space-between;
   }
@@ -232,10 +239,12 @@ input,
   /*Media Query*/
   @media (max-width:768px) {
       section.wrapper {
+        width: 100%;
         display: flex;
-        width: max-content;
+        /* width: max-content; */
       }
       section.main {
+        width: 100%;
         display: flex;
         flex-direction: column;
         padding: 0px;
@@ -245,6 +254,7 @@ input,
   
       /*Container1*/
       section.container1 {
+        width: 100%;
         margin-top: 0px;
         padding-top: 74px;
         margin-bottom: 40px;
@@ -321,6 +331,10 @@ input,
       .input-box {
         width: 100%;
         /* border: solid blue; */
+      }
+
+      form {
+        width: 100%;
       }
     
   }
