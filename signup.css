@@ -125,9 +125,9 @@ form {
   /* flex-wrap: wrap; */
 }
 
- label {
+ /* label {
   margin-bottom: 30px;
- }
+ } */
 
 /* .label1 {
   display: flex;
@@ -152,16 +152,28 @@ label.label3 {
   margin-right: 24px;
 } */
 
-input,
+/* input,
   select,
   button {
     margin-top: 10px;
-  }
+  } */
 
-  button {
+  /* button {
     width: 100%;
     padding: 16px;
     margin-bottom: 16px;
+    color: white;
+    background-color: #2ec4b6;
+    border: solid transparent;
+  } */
+
+
+  button {
+    width: 500px;
+    height: 48px;
+    /* padding-top: 16px;
+    margin-bottom: 16px; */
+    text-align: center;
     color: white;
     background-color: #2ec4b6;
     border: solid transparent;
@@ -222,18 +234,56 @@ input,
     /* border: solid red; */
     width: 100%;
     /* border: solid red; */
+    align-items: center;
     display: flex;
     justify-content: space-between;
   }
 
-  .input-box,select-box {
+  .input-box {
     width: 48%;
     /* border: solid blue; */
   }
 
-  input,select {
+  label {
+    display: block;
+  }
+
+  /* input{
     width: 100%;
     padding: 14px 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  select {
+    width: 100%;
+  padding: 18px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  }  */
+
+  input{
+    width: 238px;
+    height: 48px;
+    padding: 14px 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  select {
+    width: 238px;
+    height: 48px;
+  padding: 14px 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  } 
+
+  .full-box input, .full-box select {
+    width: 500px;
+    height: 48px;
+  padding: 14px 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   }
 
 
@@ -334,8 +384,40 @@ input,
         /* border: solid blue; */
       }
 
+      input{
+        width: 100%;
+        padding: 14px 16px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+    
+      select {
+        width: 100%;
+      padding: 14px 16px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      } 
+
       form {
         width: 100%;
+      }
+
+      .full-box input, .full-box select {
+        width: 100%;
+        height: 48px;
+      padding: 14px 16px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      }
+
+      button {
+        width: 100%;
+        /* padding-top: 16px;
+        margin-bottom: 16px; */
+        text-align: center;
+        color: white;
+        background-color: #2ec4b6;
+        border: solid transparent;
       }
     
   }
