@@ -132,7 +132,9 @@ form {
   height: 48px;
   flex-shrink: 0;
   border-radius: 2px;
-  border: 1px solid #f0f0f0;
+ /* border: 1px solid #f0f0f0;*/
+ border: solid red;
+
 }
 
 .label2 {
@@ -207,6 +209,26 @@ input,
     padding-left: 16px;
   }
 
+
+
+  /*Input*/
+  .input-row {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input-box {
+    width: 48%;
+    /* border: solid blue; */
+  }
+
+  input {
+    width: 100%;
+    padding: 14px 16px;
+  }
+
   /*Media Query*/
   @media (max-width:768px) {
       section.wrapper {
@@ -258,6 +280,7 @@ input,
   
       /*Container2*/
       section.container2 {
+        /*width: 100%;*/
         padding: 0px;
         margin-left: 0px;
         flex-direction: column;
@@ -289,4 +312,15 @@ input,
         border-radius: 2px;
         border: 1px solid #f0f0f0;
       }
+
+      .input-row {
+        /* border: solid red; */
+        flex-direction: column;
+      }
+    
+      .input-box {
+        width: 100%;
+        /* border: solid blue; */
+      }
+    
   }
