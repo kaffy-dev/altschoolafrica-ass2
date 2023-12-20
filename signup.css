@@ -269,14 +269,18 @@ input {
   padding: 14px 16px;
   margin-top: 10px;
   margin-bottom: 30px;
+  border-radius: 2px;
+  border: 1px solid #F0F0F0;
 }
-
+ 
 select {
   width: 238px;
   height: 48px;
   padding: 14px 16px;
   margin-top: 10px;
   margin-bottom: 30px;
+  border-radius: 2px;
+  border: 1px solid #F0F0F0;
 }
 
 .full-box input,
@@ -288,7 +292,9 @@ select {
   margin-bottom: 30px;
 }
 
-.p-foot {display: none;}
+.p-foot {
+  display: none;
+}
 
 
 /*Media Query*/
@@ -357,6 +363,7 @@ select {
   }
 
   .p-foot {
+    display: block;
     color: #000;
     text-align: center;
     font-family: Sofia Pro;
@@ -369,12 +376,12 @@ select {
 
   .p-foot a {
     color: #2EC4B6;
-font-family: Sofia Pro;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 25px;
-text-decoration-line: underline;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration-line: underline;
   }
 
   form {
@@ -415,6 +422,8 @@ text-decoration-line: underline;
     padding: 14px 16px;
     margin-top: 10px;
     margin-bottom: 30px;
+    border-radius: 2px;
+    border: 1px solid #F0F0F0;
   }
 
   select {
@@ -422,6 +431,8 @@ text-decoration-line: underline;
     padding: 14px 16px;
     margin-top: 10px;
     margin-bottom: 30px;
+    border-radius: 2px;
+    border: 1px solid #F0F0F0;
   }
 
   form {
