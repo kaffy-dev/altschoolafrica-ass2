@@ -273,6 +273,7 @@ input {
   border: 1px solid #F0F0F0;
 }
  
+
 select {
   width: 238px;
   height: 48px;
@@ -423,7 +424,6 @@ select {
     margin-top: 10px;
     margin-bottom: 30px;
     border-radius: 2px;
-    border: 1px solid #F0F0F0;
   }
 
   select {
@@ -432,7 +432,6 @@ select {
     margin-top: 10px;
     margin-bottom: 30px;
     border-radius: 2px;
-    border: 1px solid #F0F0F0;
   }
 
   form {
