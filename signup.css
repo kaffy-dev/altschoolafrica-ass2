@@ -129,13 +129,13 @@ form {
   margin-bottom: 30px;
  }
 
-.label1 {
+/* .label1 {
   display: flex;
   width: 238px;
   height: 48px;
   flex-shrink: 0;
   border-radius: 2px;
- /* border: 1px solid #f0f0f0;*/
+ border: 1px solid #f0f0f0;
  border: solid red;
 
 }
@@ -150,7 +150,7 @@ form {
 
 label.label3 {
   margin-right: 24px;
-}
+} */
 
 input,
   select,
@@ -191,7 +191,7 @@ input,
     text-decoration-line: underline;
   }
 
-  input#weight,
+  /* input#weight,
   input#height, select#gender,
   select#activity-level  {
     color: #737373;
@@ -213,7 +213,7 @@ input,
     line-height: 20px;
     letter-spacing: 0.2px;
     padding-left: 16px;
-  }
+  } */
 
 
 
@@ -226,15 +226,16 @@ input,
     justify-content: space-between;
   }
 
-  .input-box {
+  .input-box,select-box {
     width: 48%;
     /* border: solid blue; */
   }
 
-  input {
+  input,select {
     width: 100%;
     padding: 14px 16px;
   }
+
 
   /*Media Query*/
   @media (max-width:768px) {
@@ -306,7 +307,7 @@ input,
         padding: 16px;
       }
   
-      .label1 {
+      /* .label1 {
         display: flex;
         width: 548px;
         height: 48px;
@@ -321,7 +322,7 @@ input,
         flex-shrink: 0;
         border-radius: 2px;
         border: 1px solid #f0f0f0;
-      }
+      } */
 
       .input-row {
         /* border: solid red; */
