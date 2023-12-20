@@ -61,10 +61,11 @@ section.main {
   padding-left: 140px;
   padding-right: 140px;
 }
+
 /*Container 1*/
 section.container1 {
   width: 460px;
-  height: fit-content;
+  /* height: fit-content; */
   position: relative;
   margin-top: 124px;
 }
@@ -111,7 +112,7 @@ p.small {
 section.container2 {
   width: 580px;
   /* width: 50%; */
-  height: fit-content;
+  /* height: fit-content; */
   border-radius: 6px;
   background: #FFF;
   box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
@@ -125,7 +126,7 @@ form {
   /* flex-wrap: wrap; */
 }
 
- /* label {
+/* label {
   margin-bottom: 30px;
  } */
 
@@ -158,7 +159,7 @@ label.label3 {
     margin-top: 10px;
   } */
 
-  /* button {
+/* button {
     width: 100%;
     padding: 16px;
     margin-bottom: 16px;
@@ -168,42 +169,42 @@ label.label3 {
   } */
 
 
-  button {
-    width: 500px;
-    height: 48px;
-    /* padding-top: 16px;
-    margin-bottom: 16px; */
-    text-align: center;
-    color: white;
-    background-color: #2ec4b6;
-    border: solid transparent;
-  }
+button {
+  width: 500px;
+  height: 48px;
+  /* padding-top: 16px;*/
+  margin-bottom: 16px;
+  text-align: center;
+  color: white;
+  background-color: #2ec4b6;
+  border: solid transparent;
+}
 
-  .p-button {
-    color: #000;
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    margin-left: 18px;
-  }
+.p-button {
+  color: #000;
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-left: 18px;
+}
 
-  p.foot {
-    display: none;
-  }
+p.foot {
+  display: none;
+}
 
-  .p-button a {
-    color: #2ec4b6;
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 25px;
-    text-decoration-line: underline;
-  }
+.p-button a {
+  color: #2ec4b6;
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  text-decoration-line: underline;
+}
 
-  /* input#weight,
+/* input#weight,
   input#height, select#gender,
   select#activity-level  {
     color: #737373;
@@ -229,26 +230,26 @@ label.label3 {
 
 
 
-  /*Input*/
-  .input-row {
-    /* border: solid red; */
-    width: 100%;
-    /* border: solid red; */
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-  }
+/*Input*/
+.input-row {
+  /* border: solid red; */
+  width: 100%;
+  /* border: solid red; */
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .input-box {
-    width: 48%;
-    /* border: solid blue; */
-  }
+.input-box {
+  width: 48%;
+  /* border: solid blue; */
+}
 
-  label {
-    display: block;
-  }
+label {
+  display: block;
+}
 
-  /* input{
+/* input{
     width: 100%;
     padding: 14px 16px;
     margin-top: 10px;
@@ -262,102 +263,125 @@ label.label3 {
   margin-bottom: 30px;
   }  */
 
-  input{
-    width: 238px;
-    height: 48px;
-    padding: 14px 16px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
-
-  select {
-    width: 238px;
-    height: 48px;
+input {
+  width: 238px;
+  height: 48px;
   padding: 14px 16px;
   margin-top: 10px;
   margin-bottom: 30px;
-  } 
+}
 
-  .full-box input, .full-box select {
-    width: 500px;
-    height: 48px;
+select {
+  width: 238px;
+  height: 48px;
   padding: 14px 16px;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.full-box input,
+.full-box select {
+  width: 500px;
+  height: 48px;
+  padding: 14px 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+
+/*Media Query*/
+@media (max-width:768px) {
+  section.wrapper {
+    width: 100%;
+    display: flex;
+    /* width: max-content; */
+  }
+
+  section.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  /*Container1*/
+  section.container1 {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 74px;
+    margin-bottom: 40px;
   }
 
 
-  /*Media Query*/
-  @media (max-width:768px) {
-      section.wrapper {
-        width: 100%;
-        display: flex;
-        /* width: max-content; */
-      }
-      section.main {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-        margin-left: 24px;
-        margin-right: 24px;
-      }
-  
-      /*Container1*/
-      section.container1 {
-        width: 100%;
-        margin-top: 0px;
-        padding-top: 74px;
-        margin-bottom: 40px;
-      }
-  
-   
-      img {
-        width: 38.667px;
-        height: 40px;
-        margin-left: -4px;
-      }
-  
-      p.firstp {
-        color: #000b0a;
-        height: 30px;
-        margin-top: 40px;
-        margin-bottom: 12px;
-        font-family: 'Raleway', sans-serif;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: -0.8px;
-      }
-  
-      p.big {
-        display: none;
-      }
-  
-      p.small {
-        display: block;
-      }
-  
-      /*Container2*/
-      section.container2 {
-        width: 100%;
-        padding: 0px;
-        margin-left: 0px;
-        flex-direction: column;
-      }
-  
-      .p-button {
-        display: none;
-      }
-  
-      form {
-        display: flex;
-        flex-direction: column;
-        padding: 16px;
-      }
-  
-      /* .label1 {
+  img {
+    width: 38.667px;
+    height: 40px;
+    margin-left: -4px;
+  }
+
+  p.firstp {
+    color: #000b0a;
+    height: 30px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.8px;
+  }
+
+  p.big {
+    display: none;
+  }
+
+  p.small {
+    display: block;
+  }
+
+  /*Container2*/
+  section.container2 {
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+    flex-direction: column;
+  }
+
+  .p-button {
+    display: none;
+  }
+
+  .p-foot {
+    color: #000;
+    text-align: center;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 24px;
+  }
+
+  .p-foot a {
+    color: #2EC4B6;
+font-family: Sofia Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+text-decoration-line: underline;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  /* .label1 {
         display: flex;
         width: 548px;
         height: 48px;
@@ -374,50 +398,51 @@ label.label3 {
         border: 1px solid #f0f0f0;
       } */
 
-      .input-row {
-        /* border: solid red; */
-        flex-direction: column;
-      }
-    
-      .input-box {
-        width: 100%;
-        /* border: solid blue; */
-      }
-
-      input{
-        width: 100%;
-        padding: 14px 16px;
-        margin-top: 10px;
-        margin-bottom: 30px;
-      }
-    
-      select {
-        width: 100%;
-      padding: 14px 16px;
-      margin-top: 10px;
-      margin-bottom: 30px;
-      } 
-
-      form {
-        width: 100%;
-      }
-
-      .full-box input, .full-box select {
-        width: 100%;
-        height: 48px;
-      padding: 14px 16px;
-      margin-top: 10px;
-      margin-bottom: 30px;
-      }
-
-      button {
-        width: 100%;
-        /* padding-top: 16px;
-        margin-bottom: 16px; */
-        text-align: center;
-        color: white;
-        background-color: #2ec4b6;
-        border: solid transparent;
-      }
-    
+  .input-row {
+    /* border: solid red; */
+    flex-direction: column;
   }
+
+  .input-box {
+    width: 100%;
+    /* border: solid blue; */
+  }
+
+  input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  select {
+    width: 100%;
+    padding: 14px 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .full-box input,
+  .full-box select {
+    width: 100%;
+    height: 48px;
+    padding: 14px 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  button {
+    width: 100%;
+    /* padding-top: 16px;*/
+    margin-bottom: 16px;
+    text-align: center;
+    color: white;
+    background-color: #2ec4b6;
+    border: solid transparent;
+  }
+
+}
