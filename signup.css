@@ -288,6 +288,8 @@ select {
   margin-bottom: 30px;
 }
 
+.p-foot {display: none;}
+
 
 /*Media Query*/
 @media (max-width:768px) {
