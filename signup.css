@@ -174,10 +174,10 @@ button {
   height: 48px;
   /* padding-top: 16px;*/
   margin-bottom: 16px;
-  text-align: center;
   color: white;
   background-color: #2ec4b6;
   border: solid transparent;
+  cursor: pointer;
 }
 
 .p-button {
@@ -301,6 +301,19 @@ select {
 
 .p-foot {
   display: none;
+}
+
+.full-box {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  top: 50px;
+  right: 16px;
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
 }
 
 
