@@ -31,7 +31,59 @@
       </section>
       <section class="container2">
         <form action="">
-          <label for="fname" class="label3">First Name
+          <div class="input-row">
+            <div class="input-box">
+              <label for="first-name">First Name</label>
+              <input type="text" name="first-name" id="first-name" placeholder="Tolu">
+            </div>
+            <div class="input-box">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last-name" id="last-name">
+            </div>
+          </div>
+
+          <div class="input-row">
+            <div class="input-box">
+              <label for="gender">Gender</label>
+              <select name="gender" id="gender">
+                <option value="select-here" disabled selected hidden>Select here</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="input-box">
+              <label for="dob">Date of birth</label>
+              <input type="text" name="dob" id="dob">
+            </div>
+          </div>
+
+          <div class="input-row">
+            <div class="input-box">
+              <label for="weight">Weight (KG)</label>
+              <input type="text" name="weight" id="weight" placeholder="Enter weight">
+            </div>
+            <div class="input-box">
+              <label for="height">Height (CM)</label>
+              <input type="text" name="height" id="height" placeholder="Enter height here...">
+            </div>
+          </div>
+
+          <div>
+            <div class="full-box">
+              <label for="activity-level">Activity Level</label>
+              <select name="activity-level" id="activity-level">
+                <option value="select-here" disabled selected hidden>Select here</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <div class="full-box">
+              <label for="passw">Password</label>
+              <input type="text" name="passw" id="passw">
+            </div>
+          </div>
+          <!-- <label for="fname" class="label3">First Name
             <input type="text" name="first-name" id="fname" class="label1 pholder2" placeholder="Tolu" />
           </label>
           <label for="lname">Last Name
@@ -46,7 +98,7 @@
           </label>
           <label for="dob">Date of Birth
             <input type="text" name="date-of-birth" id="dob" class="label1" />
-            <!--<img src="image/calender-icon.jpg" alt="Date-of-birth" class="icon icon1">-->
+            <img src="image/calender-icon.jpg" alt="Date-of-birth" class="icon icon1">
           </label>
           <label for="weight" class="label3">Weight (KG)
             <input type="text" name="weight" id="weight" placeholder="Enter weight" class="label1" />
@@ -61,9 +113,9 @@
           </label>
           <label for="passw">Password
             <input type="password" name="pass-word" id="passw" class="label2" />
-            <!--<img src="image/password-icon.jpg" alt="Hide or Show Password" class=" icon icon2">-->
-          </label>
-          <button type="submit" class="label2">Register</button>
+            <img src="image/password-icon.jpg" alt="Hide or Show Password" class=" icon icon2">
+          </label>-->
+          <button type="submit">Register</button>
           <p class="p-button">
             By clicking Register, you agree to our
             <a href="hhhh">Terms of Use</a> and our
@@ -71,7 +123,7 @@
           </p>
         </form>
       </section>
-      <p class="foot">
+      <p class="p-foot">
         By clicking Register, you agree to our
         <a href="hhhh">Terms of Use</a> and our
         <a href="hhhh">Privacy Policy</a>
