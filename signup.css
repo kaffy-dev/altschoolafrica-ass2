@@ -48,9 +48,9 @@ h6 {
 
 /*For desktop view*/
 section.wrapper {
+  background: #2ec4b60a;
   margin: 0 auto;
   width: 1440px;
-  background: #2ec4b60a;
 }
 
 section.main {
@@ -65,7 +65,6 @@ section.main {
 /*Container 1*/
 section.container1 {
   width: 460px;
-  /* height: fit-content; */
   position: relative;
   margin-top: 124px;
 }
@@ -91,7 +90,7 @@ p.firstp {
 p.big {
   color: #737373;
   font-family: 'Raleway', sans-serif;
-  font-size: 18.6px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
@@ -100,19 +99,11 @@ p.big {
 
 p.small {
   display: none;
-  color: #737373;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 25px;
 }
 
 /* Container 2*/
 section.container2 {
   width: 580px;
-  /* width: 50%; */
-  /* height: fit-content; */
   border-radius: 6px;
   background: #FFF;
   box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
@@ -122,57 +113,11 @@ section.container2 {
 
 form {
   width: 100%;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
 }
-
-/* label {
-  margin-bottom: 30px;
- } */
-
-/* .label1 {
-  display: flex;
-  width: 238px;
-  height: 48px;
-  flex-shrink: 0;
-  border-radius: 2px;
- border: 1px solid #f0f0f0;
- border: solid red;
-
-}
-
-.label2 {
-  width: 500px;
-  height: 48px;
-  flex-shrink: 0;
-  border-radius: 2px;
-  border: 1px solid #f0f0f0;
-}
-
-label.label3 {
-  margin-right: 24px;
-} */
-
-/* input,
-  select,
-  button {
-    margin-top: 10px;
-  } */
-
-/* button {
-    width: 100%;
-    padding: 16px;
-    margin-bottom: 16px;
-    color: white;
-    background-color: #2ec4b6;
-    border: solid transparent;
-  } */
-
 
 button {
   width: 500px;
   height: 48px;
-  /* padding-top: 16px;*/
   margin-bottom: 16px;
   color: white;
   background-color: #2ec4b6;
@@ -204,35 +149,21 @@ p.foot {
   text-decoration-line: underline;
 }
 
-input#weight,
-  input#height, select#gender,
-  select#activity-level  {
-    color: #737373;
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-  }
-
-  /* input#fname {
-    color: #011C34;
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 1px;
-    font-style: bold;
-    font-weight: 800;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-  } */
-
+select#gender,
+select#activity-level {
+  color: #737373;
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
 
 
 /*Input*/
 .input-row {
-  /* border: solid red; */
   width: 100%;
-  /* border: solid red; */
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -240,26 +171,11 @@ input#weight,
 
 .input-box {
   width: 48%;
-  /* border: solid blue; */
 }
 
 label {
   display: block;
 }
-
-/* input{
-    width: 100%;
-    padding: 14px 16px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
-
-  select {
-    width: 100%;
-  padding: 18px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  }  */
 
 input {
   width: 238px;
@@ -273,10 +189,11 @@ input {
   outline: none;
 }
 
-input:focus, select:focus {
+input:focus,
+select:focus {
   border: 1px solid #2ec4b6;
 }
- 
+
 
 select {
   width: 238px;
@@ -322,7 +239,6 @@ select {
   section.wrapper {
     width: 100%;
     display: flex;
-    /* width: max-content; */
   }
 
   section.main {
@@ -368,6 +284,12 @@ select {
 
   p.small {
     display: block;
+    color: #737373;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
   }
 
   /*Container2*/
@@ -410,31 +332,12 @@ select {
     padding: 16px;
   }
 
-  /* .label1 {
-        display: flex;
-        width: 548px;
-        height: 48px;
-        flex-shrink: 0;
-        border-radius: 2px;
-        border: 1px solid #f0f0f0;
-      }
-      
-      .label2 {
-        width: 548px;
-        height: 48px;
-        flex-shrink: 0;
-        border-radius: 2px;
-        border: 1px solid #f0f0f0;
-      } */
-
   .input-row {
-    /* border: solid red; */
     flex-direction: column;
   }
 
   .input-box {
     width: 100%;
-    /* border: solid blue; */
   }
 
   input {
@@ -468,12 +371,10 @@ select {
 
   button {
     width: 100%;
-    /* padding-top: 16px;*/
     margin-bottom: 16px;
     text-align: center;
     color: white;
     background-color: #2ec4b6;
     border: solid transparent;
   }
-
 }
