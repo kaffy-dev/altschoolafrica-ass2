@@ -204,7 +204,7 @@ p.foot {
   text-decoration-line: underline;
 }
 
-/* input#weight,
+input#weight,
   input#height, select#gender,
   select#activity-level  {
     color: #737373;
@@ -214,18 +214,16 @@ p.foot {
     font-weight: 300;
     line-height: 20px;
     letter-spacing: 0.2px;
-    padding-left: 16px;
   }
 
-  input#fname {
+  /* input#fname {
     color: #011C34;
     font-family: 'Sofia Sans', sans-serif;
-    font-size: 14px;
+    font-size: 1px;
     font-style: bold;
     font-weight: 800;
     line-height: 20px;
     letter-spacing: 0.2px;
-    padding-left: 16px;
   } */
 
 
@@ -271,6 +269,12 @@ input {
   margin-bottom: 30px;
   border-radius: 2px;
   border: 1px solid #F0F0F0;
+  background: transparent;
+  outline: none;
+}
+
+input:focus, select:focus {
+  border: 1px solid #2ec4b6;
 }
  
 
@@ -282,6 +286,8 @@ select {
   margin-bottom: 30px;
   border-radius: 2px;
   border: 1px solid #F0F0F0;
+  background: transparent;
+  outline: none;
 }
 
 .full-box input,
