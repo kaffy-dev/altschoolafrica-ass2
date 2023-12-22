@@ -382,13 +382,4 @@ select {
     border: solid transparent;
   }
 
-  .calender-icon {
-    display: block;
-    position: absolute;
-    top: 713px;
-    right: 57px;
-    height: 16px;
-    width: 16px;
-    cursor: pointer;
-  }
 }
