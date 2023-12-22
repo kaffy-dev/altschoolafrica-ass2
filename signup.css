@@ -233,6 +233,10 @@ select {
   cursor: pointer;
 }
 
+.calender-icon {
+  display: none;
+}
+
 
 /*Media Query*/
 @media (max-width:768px) {
@@ -285,11 +289,11 @@ select {
   p.small {
     display: block;
     color: #737373;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
   }
 
   /*Container2*/
@@ -376,5 +380,15 @@ select {
     color: white;
     background-color: #2ec4b6;
     border: solid transparent;
+  }
+
+  .calender-icon {
+    display: block;
+    position: absolute;
+    top: 713px;
+    right: 57px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
   }
 }
